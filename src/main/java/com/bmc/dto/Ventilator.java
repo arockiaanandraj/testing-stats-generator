@@ -1,4 +1,4 @@
-package com.bmc.app;
+package com.bmc.dto;
 
 import lombok.Data;
 

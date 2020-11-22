@@ -1,4 +1,4 @@
-package com.bmc.app;
+package com.bmc.dto;
 
 import java.util.ArrayList;
 import java.util.List;

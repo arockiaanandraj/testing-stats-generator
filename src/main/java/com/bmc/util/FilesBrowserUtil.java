@@ -1,4 +1,4 @@
-package com.bmc.app;
+package com.bmc.util;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class FilesBrowser {
-    private FilesBrowser() {
+public class FilesBrowserUtil {
+    private FilesBrowserUtil() {
     }
 
     public static List<File> getFiles(String directoryPath) {
