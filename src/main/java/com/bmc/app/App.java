@@ -54,7 +54,6 @@ public final class App {
                 generateStats(consolidatedReportPath);
             }
         } while (choice != 3);
-        // in.close();
     }
 
     public static void generateReport(String directoryPath, String empName) {
@@ -70,8 +69,8 @@ public final class App {
                 consolidatedReport.getReports().add(collectResults(ssUtil, sheet, empName, jobNbr));
             }
         }
-        writeStats();
-        writeConsolidatedReport(consolidatedReport);
+        writeStats(empName);
+        writeConsolidatedReport(consolidatedReport, empName);
     }
 
     public static Report collectResults(SpreadsheetUtil ssUtil, String sheetName, String empName, String jobNbr) {
@@ -109,7 +108,7 @@ public final class App {
                 }
             }
         }
-        writeReport(report);
+        writeReport(report, empName);
         return report;
     }
 
@@ -152,9 +151,9 @@ public final class App {
         }
     }
 
-    private static void writeReport(Report report) {
+    private static void writeReport(Report report, String empName) {
         JSONObject obj = new JSONObject(report);
-        try (FileWriter outFile = new FileWriter("Reports.json", true);) {
+        try (FileWriter outFile = new FileWriter("reports\\Reports"+"-"+empName+".json", true);) {
             outFile.write(obj.toString(4));
             outFile.write(",\n");
         } catch (Exception E) {
@@ -162,17 +161,17 @@ public final class App {
         }
     }
 
-    private static void writeStats() {
-        try (FileWriter outFile = new FileWriter("VentilatorStats.txt", true);) {
+    private static void writeStats(String empName) {
+        try (FileWriter outFile = new FileWriter("reports\\VentilatorStats"+"-"+empName+".txt", true);) {
             outFile.write(ventilators.toString());
         } catch (Exception E) {
             E.printStackTrace();
         }
     }
 
-    private static void writeConsolidatedReport(ConsolidatedReport consolidatedReport) {
+    private static void writeConsolidatedReport(ConsolidatedReport consolidatedReport, String empName) {
         JSONObject obj = new JSONObject(consolidatedReport);
-        try (FileWriter outFile = new FileWriter("ConsolidatedReport.json");) {
+        try (FileWriter outFile = new FileWriter("reports\\ConsolidatedReport"+"-"+empName+".json");) {
             outFile.write(obj.toString(4));
         } catch (Exception E) {
             E.printStackTrace();
