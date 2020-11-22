@@ -43,12 +43,16 @@ public final class App {
             System.out.print("Choose an option: ");
             choice = Integer.parseInt(in.nextLine());
             if (choice == 1) {
+                ventilators = new HashMap<>();
                 System.out.println("Enter folder path to generate reports:");
                 String directoryPath = in.nextLine();
                 System.out.println("Enter employee name:");
                 String empName = in.nextLine();
                 generateReport(directoryPath, empName);
             } else if (choice == 2) {
+                test1Count = 0;
+                test2Count = 0;
+                test3Count = 0;
                 System.out.println("Enter consolidated report filepath:");
                 String consolidatedReportPath = in.nextLine();
                 generateStats(consolidatedReportPath);
