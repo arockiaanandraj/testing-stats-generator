@@ -41,16 +41,16 @@ public final class App {
             System.out.println("2. Generate Stats");
             System.out.println("3. Exit");
             System.out.print("Choose an option: ");
-            choice = in.nextInt();
+            choice = Integer.parseInt(in.nextLine());
             if (choice == 1) {
                 System.out.println("Enter folder path to generate reports:");
-                String directoryPath = in.next();
+                String directoryPath = in.nextLine();
                 System.out.println("Enter employee name:");
-                String empName = in.next();
+                String empName = in.nextLine();
                 generateReport(directoryPath, empName);
             } else if (choice == 2) {
                 System.out.println("Enter consolidated report filepath:");
-                String consolidatedReportPath = in.next();
+                String consolidatedReportPath = in.nextLine();
                 generateStats(consolidatedReportPath);
             }
         } while (choice != 3);
