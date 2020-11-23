@@ -396,6 +396,9 @@
 409661941A=[Sys Calibration Test Procedure, Systems Final Testing]
 
 NAVEEN KRISHNA
+Assembly 1 = 0
+Assembly 2 = 0
+Assembly 3 = 0
 Test 1 = 0
 Test 2 = 163
 Test 3 = 374

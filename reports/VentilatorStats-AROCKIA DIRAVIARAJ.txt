@@ -499,6 +499,9 @@
 409665389A=[Electrical Safety Check]
 
 AROCKIA DIRAVIARAJ
+Assembly 1 = 0
+Assembly 2 = 0
+Assembly 3 = 0
 Test 1 = 461
 Test 2 = 91
 Test 3 = 50
