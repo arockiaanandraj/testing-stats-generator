@@ -9,6 +9,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -25,9 +27,10 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.json.JSONObject;
 
-@SuppressWarnings({ "java:S106", "java:S125" })
+@SuppressWarnings({ "java:S106", "java:S125", "java:S3776", "java:S1643" })
 public final class App {
     private static final String EMP_NAME_COL_HEADING = "Employee Name";
+    private static final String TEST1_EMP_NAME_COL_HEADING = "Test 1 Operator ";
     private static final String VENT_SERIAL_NBR_COL_HEADING = "Ventilator Serial Number";
     private static final String SENT_FOR_REWORK_COL_HEADING = "Sent for Rework?";
     private static final String DATE_COL_HEADING = "Date";
@@ -54,6 +57,8 @@ public final class App {
     private static int test2Count = 0;
     private static int test3Count = 0;
 
+    private static int sentForReworkCount = 0;
+
     public static void main(String[] args) {
         try (Scanner in = new Scanner(System.in)) {
             int choice = 0;
@@ -78,6 +83,7 @@ public final class App {
                     test1Count = 0;
                     test2Count = 0;
                     test3Count = 0;
+                    sentForReworkCount = 0;
                     System.out.println("Enter consolidated report filepath:");
                     String consolidatedReportPath = in.nextLine();
                     generateStats(consolidatedReportPath);
@@ -113,6 +119,7 @@ public final class App {
             return report;
         }
         String currentEmpName;
+        String test1Operator;
         String ventilatorSerialNbr;
         Boolean sentForRework = Boolean.FALSE;
         LocalDateTime testDate;
@@ -120,13 +127,22 @@ public final class App {
         for (Row row : currentSheet) {
             int rowNbr = row.getRowNum();
             if (rowNbr > 9) {
-                currentEmpName = ssUtil.getCellData(EMP_NAME_COL_HEADING, rowNbr);
                 ventilatorSerialNbr = ssUtil.getCellData(VENT_SERIAL_NBR_COL_HEADING, rowNbr);
                 testDate = Helper.convertToLocalDateTime(ssUtil.getCellData(DATE_COL_HEADING, rowNbr));
                 if (!assemblySheets.contains(sheetName)) {
                     sentForRework = "YES".equalsIgnoreCase(ssUtil.getCellData(SENT_FOR_REWORK_COL_HEADING, rowNbr))
                             ? Boolean.TRUE
                             : Boolean.FALSE;
+                }
+                currentEmpName = ssUtil.getCellData(EMP_NAME_COL_HEADING, rowNbr);
+                if (SYSTEM_CALIB_TEST_SHEET_NAME.equals(sheetName)) {
+                    test1Operator = ssUtil.getCellData(TEST1_EMP_NAME_COL_HEADING, rowNbr);
+                    if (!test1Operator.isEmpty() && !currentEmpName.isEmpty() && Boolean.FALSE.equals(sentForRework)) {
+                        currentEmpName = test1Operator + "," + currentEmpName;
+                    } else if (!test1Operator.isEmpty()
+                            && (currentEmpName.isEmpty() || Boolean.TRUE.equals(sentForRework))) {
+                        currentEmpName = test1Operator;
+                    }
                 }
                 // System.out.println(currentEmpName);
                 // System.out.println(ventilatorSerialNbr);
@@ -182,32 +198,91 @@ public final class App {
             assembly3Reports.forEach(report -> assembly3Count += report.getTestCount());
             System.out.println("Assembly 3 = " + assembly3Count);
 
-            List<Report> test1Reports = consolidatedReport.getReports().stream()
-                    .filter(report -> ELECTRICAL_SAFETY_CHECK_SHEET_NAME.equalsIgnoreCase(report.getTestName()))
-                    .collect(Collectors.toList());
-            // System.out.println(test1Reports.size());
-            test1Reports.forEach(report -> test1Count += report.getTestCount());
+            Set<String> vents = new TreeSet<>();
+            consolidatedReport.getReports().forEach(report -> {
+                if (ELECTRICAL_SAFETY_CHECK_SHEET_NAME.equalsIgnoreCase(report.getTestName())
+                        && !report.getVentilators().isEmpty()) {
+                    report.getVentilators().forEach(ventilator -> {
+                        vents.add(ventilator.getSerialNbr());
+                        test1Count++;
+                    });
+                }
+                if (SYSTEM_CALIB_TEST_SHEET_NAME.equalsIgnoreCase(report.getTestName())
+                        && !report.getVentilators().isEmpty()) {
+                    report.getVentilators().forEach(ventilator -> {
+                        if ((!vents.contains(ventilator.getSerialNbr()))) {
+                            String tempStr = ventilator.getEmpName();
+                            if (tempStr.contains("\n") && !tempStr.contains(",")) {
+                                tempStr = tempStr.replace("\n", ",");
+                            } else if (tempStr.contains("\n") && tempStr.contains(",")) {
+                                tempStr = tempStr.replace("\n", "");
+                            }
+                            if ((tempStr.contains(",")
+                                    && (tempStr.split(",").length > 1 && tempStr.split(",")[0].toUpperCase()
+                                            .contains(consolidatedReport.getEmpName()))
+                                    || (tempStr.split(",").length > 1 && tempStr.split(",")[0].isEmpty()
+                                            && Boolean.TRUE.equals(ventilator.getSentForRework())))
+                                    || (!tempStr.contains(",") && Boolean.TRUE.equals(ventilator.getSentForRework()))) {
+                                vents.add(ventilator.getSerialNbr());
+                                test1Count++;
+                            }
+                        }
+                    });
+                }
+            });
+            // System.out.println(vents);
             System.out.println("Test 1 = " + test1Count);
 
-            List<Report> test2Reports = consolidatedReport.getReports().stream()
-                    .filter(report -> (SYSTEM_CALIB_TEST_SHEET_NAME.equalsIgnoreCase(report.getTestName())
-                            && !report.getVentilators().isEmpty()
-                            && report.getVentilators().stream()
-                                    .filter(ventilator -> ventilator.getEmpName().split(",").length > 1
-                                            && ventilator.getEmpName().split(",")[1]
-                                                    .contains(consolidatedReport.getEmpName()))
-                                    .count() > 0))
-                    .collect(Collectors.toList());
-            // System.out.println(test2Reports.size());
-            test2Reports.forEach(report -> test2Count += report.getTestCount());
+            consolidatedReport.getReports().forEach(report -> {
+                if (SYSTEM_CALIB_TEST_SHEET_NAME.equalsIgnoreCase(report.getTestName())
+                        && !report.getVentilators().isEmpty()) {
+                    report.getVentilators().forEach(ventilator -> {
+                        String tempStr = ventilator.getEmpName();
+                        if (tempStr.contains("\n") && !tempStr.contains(",")) {
+                            tempStr = tempStr.replace("\n", ",");
+                        } else if (tempStr.contains("\n") && tempStr.contains(",")) {
+                            tempStr = tempStr.replace("\n", "");
+                        }
+                        if (tempStr.split(",").length > 1
+                                && tempStr.split(",")[1].toUpperCase().contains(consolidatedReport.getEmpName())) {
+                            test2Count++;
+                        }
+                    });
+                }
+            });
             System.out.println("Test 2 = " + test2Count);
 
-            List<Report> test3Reports = consolidatedReport.getReports().stream()
-                    .filter(report -> SYSTEM_FINAL_TESTING_SHEET_NAME.equalsIgnoreCase(report.getTestName()))
-                    .collect(Collectors.toList());
-            // System.out.println(test3Reports.size());
-            test3Reports.forEach(report -> test3Count += report.getTestCount());
+            consolidatedReport.getReports().forEach(report -> {
+                if (SYSTEM_FINAL_TESTING_SHEET_NAME.equalsIgnoreCase(report.getTestName())
+                        && !report.getVentilators().isEmpty()) {
+                    report.getVentilators().forEach(ventilator -> {
+                        String tempStr = ventilator.getEmpName();
+                        if (tempStr.contains("\n") && !tempStr.contains(",")) {
+                            tempStr = tempStr.replace("\n", ",");
+                        } else if (tempStr.contains("\n") && tempStr.contains(",")) {
+                            tempStr = tempStr.replace("\n", "");
+                        }
+                        // System.out.println(tempStr);
+                        if (tempStr.split(",").length > 1
+                                && tempStr.split(",")[1].toUpperCase().contains(consolidatedReport.getEmpName())) {
+                            test3Count++;
+                        }
+                    });
+                }
+            });
             System.out.println("Test 3 = " + test3Count);
+
+            consolidatedReport.getReports().forEach(report -> {
+                if (!report.getVentilators().isEmpty()) {
+                    report.getVentilators().forEach(ventilator -> {
+                        if (Boolean.TRUE.equals(ventilator.getSentForRework())) {
+                            sentForReworkCount++;
+                        }
+                    });
+                }
+            });
+            System.out.println("Sent for Rework = " + sentForReworkCount);
+
         } catch (Exception E) {
             E.printStackTrace();
         }

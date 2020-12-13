@@ -92,6 +92,36 @@
         },
         {
             "testCount": 0,
+            "jobNbr": "029331",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029331",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029331",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029331",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029331",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029331",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
             "jobNbr": "029330",
             "ventilators": []
         },
@@ -197,36 +227,6 @@
         {
             "testCount": 0,
             "jobNbr": "029330",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "029331",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "029331",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "029331",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "029331",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "029331",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "029331",
             "ventilators": []
         },
         {
@@ -911,6 +911,66 @@
         {
             "testCount": 0,
             "jobNbr": "029525",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029526",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029526",
+            "ventilators": []
+        },
+        {
+            "testCount": 4,
+            "jobNbr": "029526",
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 4",
+                    "jobNbr": "029526",
+                    "serialNbr": "409661338A",
+                    "testDate": "2020-09-14T22:10"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 4",
+                    "jobNbr": "029526",
+                    "serialNbr": "409661339A",
+                    "testDate": "2020-09-14T23:22"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 4",
+                    "jobNbr": "029526",
+                    "serialNbr": "409661340A",
+                    "testDate": "2020-09-14T23:57"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 4",
+                    "jobNbr": "029526",
+                    "serialNbr": "409661341A",
+                    "testDate": "2020-09-15T01:32"
+                }
+            ],
+            "testName": "Assembly 3"
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029526",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029526",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "029526",
             "ventilators": []
         },
         {
@@ -8947,9 +9007,25 @@
             "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 0,
+            "testCount": 2,
             "jobNbr": "031583",
-            "ventilators": []
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Shawn Nassir Line 1",
+                    "jobNbr": "031583",
+                    "serialNbr": "409667426A",
+                    "testDate": "2020-11-12T04:41"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031583",
+                    "serialNbr": "409667448A",
+                    "testDate": "2020-11-11T02:31"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -9091,9 +9167,144 @@
             "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 0,
+            "testCount": 19,
             "jobNbr": "031584",
-            "ventilators": []
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667494A",
+                    "testDate": "2020-11-10T01:25"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667495A",
+                    "testDate": "2020-11-10T00:54"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR Ali line 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667496A",
+                    "testDate": "2020-11-10T08:48"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667499A",
+                    "testDate": "2020-11-10T04:19"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR Ali line 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667500A",
+                    "testDate": "2020-11-10T07:35"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR Ali line 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667501A",
+                    "testDate": "2020-11-10T08:04"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR Ali line 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667502A",
+                    "testDate": "2020-11-10T09:17"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667505A",
+                    "testDate": "2020-11-09T23:54"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667506A",
+                    "testDate": "2020-11-09T23:23"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667507A",
+                    "testDate": "2020-11-10T00:24"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667508A",
+                    "testDate": "2020-11-09T22:47"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667509A",
+                    "testDate": "2020-11-09T21:18"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667510A",
+                    "testDate": "2020-11-09T20:42"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667511A",
+                    "testDate": "2020-11-09T21:48"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667491A",
+                    "testDate": "2020-11-10T21:43"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667482A",
+                    "testDate": "2020-11-10T22:16"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667482A",
+                    "testDate": "2020-11-11T01:39"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667494A",
+                    "testDate": "2020-11-12T03:09"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031584",
+                    "serialNbr": "409667511A",
+                    "testDate": "2020-11-18T02:30"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -9279,9 +9490,137 @@
             "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 0,
+            "testCount": 18,
             "jobNbr": "031816",
-            "ventilators": []
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667560A",
+                    "testDate": "2020-11-11T03:23"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR ALI  LINE 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667562A",
+                    "testDate": "2020-11-11T08:02"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667563A",
+                    "testDate": "2020-11-12T01:03"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667564A",
+                    "testDate": "2020-11-11T03:52"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR ALI  LINE 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667566A",
+                    "testDate": "2020-11-11T08:32"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667577A",
+                    "testDate": "2020-11-11T23:10"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667579A",
+                    "testDate": "2020-11-11T22:37"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667580A",
+                    "testDate": "2020-11-11T22:07"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667583A",
+                    "testDate": "2020-11-11T21:37"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667584A",
+                    "testDate": "2020-11-11T23:42"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667586A",
+                    "testDate": "2020-11-11T21:27"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667589A",
+                    "testDate": "2020-11-12T04:15"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667605A",
+                    "testDate": "2020-11-11T01:01"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667606A",
+                    "testDate": "2020-11-11T00:10"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667607A",
+                    "testDate": "2020-11-11T04:41"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667610A",
+                    "testDate": "2020-11-10T20:42"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667611A",
+                    "testDate": "2020-11-11T04:15"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031816",
+                    "serialNbr": "409667612A",
+                    "testDate": "2020-11-10T20:11"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -9360,7 +9699,7 @@
             "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 4,
+            "testCount": 7,
             "jobNbr": "031817",
             "ventilators": [
                 {
@@ -9369,6 +9708,20 @@
                     "jobNbr": "031817",
                     "serialNbr": "409667634A",
                     "testDate": "2020-11-11T23:38"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031817",
+                    "serialNbr": "409667635A",
+                    "testDate": "2020-11-12T01:34"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031817",
+                    "serialNbr": "409667637A",
+                    "testDate": "2020-11-12T02:03"
                 },
                 {
                     "sentForRework": true,
@@ -9390,6 +9743,13 @@
                     "jobNbr": "031817",
                     "serialNbr": "409667647A",
                     "testDate": "2020-11-11T23:51"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,AMAN SINGH ASSI LINE 1",
+                    "jobNbr": "031817",
+                    "serialNbr": "409667648A",
+                    "testDate": "2020-11-12T08:26"
                 }
             ],
             "testName": "Sys Calibration Test Procedure"
@@ -9420,9 +9780,16 @@
             "ventilators": []
         },
         {
-            "testCount": 0,
+            "testCount": 1,
             "jobNbr": "031818",
-            "ventilators": []
+            "ventilators": [{
+                "sentForRework": false,
+                "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                "jobNbr": "031818",
+                "serialNbr": "409667701A",
+                "testDate": "2020-11-16T23:50"
+            }],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -9503,17 +9870,33 @@
             "testName": "Electrical Safety Check"
         },
         {
+            "testCount": 2,
+            "jobNbr": "031820",
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031820",
+                    "serialNbr": "409667782A",
+                    "testDate": "2020-11-17T02:02"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031820",
+                    "serialNbr": "409667785A",
+                    "testDate": "2020-11-17T01:35"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
+        },
+        {
             "testCount": 0,
             "jobNbr": "031820",
             "ventilators": []
         },
         {
             "testCount": 0,
-            "jobNbr": "031820",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
             "jobNbr": "031821",
             "ventilators": []
         },
@@ -9528,7 +9911,7 @@
             "ventilators": []
         },
         {
-            "testCount": 12,
+            "testCount": 11,
             "jobNbr": "031821",
             "ventilators": [
                 {
@@ -9584,13 +9967,6 @@
                     "sentForRework": false,
                     "empName": "LISHA THOMAS LINE 2",
                     "jobNbr": "031821",
-                    "serialNbr": "409667848A",
-                    "testDate": "2020-11-16T22:29"
-                },
-                {
-                    "sentForRework": false,
-                    "empName": "LISHA THOMAS LINE 2",
-                    "jobNbr": "031821",
                     "serialNbr": "409667851A",
                     "testDate": "2020-11-16T22:06"
                 },
@@ -9619,9 +9995,95 @@
             "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 0,
+            "testCount": 12,
             "jobNbr": "031821",
-            "ventilators": []
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,GEORGES KOUASSI LINE 3",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667836A",
+                    "testDate": "2020-11-17T07:40"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Shawn Nassir Line 3",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667837A",
+                    "testDate": "2020-11-17T03:30"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667839A",
+                    "testDate": "2020-11-17T03:15"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR ALI LINE 2",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667840A",
+                    "testDate": "2020-11-17T08:06"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR ALI LINE 2",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667841A",
+                    "testDate": "2020-11-17T09:05"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Shawn Nassir Line 3",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667842A",
+                    "testDate": "2020-11-17T03:58"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667845A",
+                    "testDate": "2020-11-17T01:03"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667848A",
+                    "testDate": "2020-11-23T08:07"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667851A",
+                    "testDate": "2020-11-16T22:46"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667852A",
+                    "testDate": "2020-11-16T20:46"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667854A",
+                    "testDate": "2020-11-16T21:42"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031821",
+                    "serialNbr": "409667859A",
+                    "testDate": "2020-11-16T22:14"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -9656,39 +10118,16 @@
             "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 0,
+            "testCount": 1,
             "jobNbr": "031822",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "031822",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "031822",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "031822",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "031822",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "031822",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "031822",
-            "ventilators": []
+            "ventilators": [{
+                "sentForRework": false,
+                "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                "jobNbr": "031822",
+                "serialNbr": "409667937A",
+                "testDate": "2020-11-17T04:38"
+            }],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -9760,15 +10199,52 @@
             "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 1,
+            "testCount": 6,
             "jobNbr": "031823",
-            "ventilators": [{
-                "sentForRework": true,
-                "empName": "LISHA THOMAS LINE 2",
-                "jobNbr": "031823",
-                "serialNbr": "409667948A",
-                "testDate": "2020-11-19T04:00"
-            }],
+            "ventilators": [
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031823",
+                    "serialNbr": "409667948A",
+                    "testDate": "2020-11-19T04:00"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031823",
+                    "serialNbr": "409667951A",
+                    "testDate": "2020-11-19T03:40"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Shawn Nassir Line 3",
+                    "jobNbr": "031823",
+                    "serialNbr": "409667952A",
+                    "testDate": "2020-11-18T23:18"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031823",
+                    "serialNbr": "409667963A",
+                    "testDate": "2020-11-18T02:34"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031823",
+                    "serialNbr": "409667976A",
+                    "testDate": "2020-11-18T01:08"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Shawn Nassir Line 3",
+                    "jobNbr": "031823",
+                    "serialNbr": "409667973A",
+                    "testDate": "2020-11-19T01:28"
+                }
+            ],
             "testName": "Sys Calibration Test Procedure"
         },
         {
@@ -9981,9 +10457,121 @@
             "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 3,
+            "testCount": 28,
             "jobNbr": "031824",
             "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668000A",
+                    "testDate": "2020-11-17T22:44"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668001A",
+                    "testDate": "2020-11-17T22:01"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,GEORGES KOUASSI LINE 3",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668003A",
+                    "testDate": "2020-11-18T08:03"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668010A",
+                    "testDate": "2020-11-17T23:22"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668013A",
+                    "testDate": "2020-11-17T21:02"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668016A",
+                    "testDate": "2020-11-17T20:20"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668017A",
+                    "testDate": "2020-11-17T22:53"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668018A",
+                    "testDate": "2020-11-17T21:12"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668019A",
+                    "testDate": "2020-11-18T23:47"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668022A",
+                    "testDate": "2020-11-18T01:02"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668023A",
+                    "testDate": "2020-11-19T01:03"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR ALI LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668024A",
+                    "testDate": "2020-11-18T07:36"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668026A",
+                    "testDate": "2020-11-18T22:47"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668027A",
+                    "testDate": "2020-11-18T01:32"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,JAWAD HAIDER SYED LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668028A",
+                    "testDate": "2020-11-18T03:54"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668029A",
+                    "testDate": "2020-11-19T01:42"
+                },
                 {
                     "sentForRework": true,
                     "empName": "LISHA THOMAS LINE 2",
@@ -10002,8 +10590,70 @@
                     "sentForRework": true,
                     "empName": "LISHA THOMAS LINE 2",
                     "jobNbr": "031824",
+                    "serialNbr": "409668043A",
+                    "testDate": "2020-11-18T23:05"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668045A",
+                    "testDate": "2020-11-18T21:46"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668046A",
+                    "testDate": "2020-11-18T22:14"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668047A",
+                    "testDate": "2020-11-19T02:12"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668048A",
+                    "testDate": "2020-11-19T03:20"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668049A",
+                    "testDate": "2020-11-19T04:02"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031824",
                     "serialNbr": "409668050A",
                     "testDate": "2020-11-19T03:49"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QALID ALI LINE 3",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668051A",
+                    "testDate": "2020-11-19T07:52"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668043A",
+                    "testDate": "2020-12-04T08:20"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031824",
+                    "serialNbr": "409668043A"
                 }
             ],
             "testName": "Sys Calibration Test Procedure"
@@ -10209,22 +10859,36 @@
             "ventilators": []
         },
         {
+            "testCount": 1,
+            "jobNbr": "031831",
+            "ventilators": [{
+                "sentForRework": false,
+                "empName": "LISHA THOMAS LINE 2",
+                "jobNbr": "031831",
+                "serialNbr": "409668402A",
+                "testDate": "2020-11-24T04:32"
+            }],
+            "testName": "Electrical Safety Check"
+        },
+        {
+            "testCount": 1,
+            "jobNbr": "031831",
+            "ventilators": [{
+                "sentForRework": false,
+                "empName": "LISHA THOMAS LINE 2,GEORGES KOUASSI LINE 3",
+                "jobNbr": "031831",
+                "serialNbr": "409668402A",
+                "testDate": "2020-11-24T08:06"
+            }],
+            "testName": "Sys Calibration Test Procedure"
+        },
+        {
             "testCount": 0,
             "jobNbr": "031831",
             "ventilators": []
         },
         {
             "testCount": 0,
-            "jobNbr": "031831",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "031831",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
             "jobNbr": "031832",
             "ventilators": []
         },
@@ -10244,9 +10908,16 @@
             "ventilators": []
         },
         {
-            "testCount": 0,
+            "testCount": 1,
             "jobNbr": "031832",
-            "ventilators": []
+            "ventilators": [{
+                "sentForRework": false,
+                "empName": "LISHA THOMAS LINE 2,TAVLEEN KAUR LINE 1",
+                "jobNbr": "031832",
+                "serialNbr": "409668453A",
+                "testDate": "2020-12-02T04:37"
+            }],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -10269,14 +10940,319 @@
             "ventilators": []
         },
         {
-            "testCount": 0,
+            "testCount": 21,
             "jobNbr": "031833",
-            "ventilators": []
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668496A",
+                    "testDate": "2020-11-25T01:28"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668498A",
+                    "testDate": "2020-11-25T02:03"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668499A",
+                    "testDate": "2020-11-24T23:28"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668500A",
+                    "testDate": "2020-11-25T00:00"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668501A",
+                    "testDate": "2020-11-25T02:40"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668502A",
+                    "testDate": "2020-11-24T19:39"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668505A",
+                    "testDate": "2020-11-24T19:57"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668507A",
+                    "testDate": "2020-11-24T20:44"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668509A",
+                    "testDate": "2020-11-24T20:17"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668520A",
+                    "testDate": "2020-11-24T03:39"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668521A",
+                    "testDate": "2020-11-24T04:02"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668522A",
+                    "testDate": "2020-11-24T02:53"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668523A",
+                    "testDate": "2020-11-24T02:18"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668524A",
+                    "testDate": "2020-11-24T01:30"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668525A",
+                    "testDate": "2020-11-24T00:20"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668528A",
+                    "testDate": "2020-11-24T01:54"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668530A",
+                    "testDate": "2020-11-23T22:37"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668533A",
+                    "testDate": "2020-11-23T20:44"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668534A",
+                    "testDate": "2020-11-23T19:52"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668535A",
+                    "testDate": "2020-11-23T21:18"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668536A",
+                    "testDate": "2020-11-23T20:12"
+                }
+            ],
+            "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 0,
+            "testCount": 22,
             "jobNbr": "031833",
-            "ventilators": []
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668496A",
+                    "testDate": "2020-11-25T02:09"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668498A",
+                    "testDate": "2020-11-25T03:09"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668499A",
+                    "testDate": "2020-11-25T00:36"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668500A",
+                    "testDate": "2020-11-25T01:37"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668501A",
+                    "testDate": "2020-11-25T03:46"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668502A",
+                    "testDate": "2020-11-24T20:22"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668505A",
+                    "testDate": "2020-11-24T20:38"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668507A",
+                    "testDate": "2020-11-24T22:10"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668509A",
+                    "testDate": "2020-11-24T21:43"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,UMADEVI MUKKAMULA LINE4",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668520A",
+                    "testDate": "2020-11-24T08:22"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668521A",
+                    "testDate": "2020-11-24T04:34"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR ALI LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668522A",
+                    "testDate": "2020-11-24T07:45"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR ALI LINE 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668523A",
+                    "testDate": "2020-11-24T09:01"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668524A",
+                    "testDate": "2020-11-24T03:54"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668525A",
+                    "testDate": "2020-11-24T01:02"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668528A",
+                    "testDate": "2020-11-24T03:14"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668530A",
+                    "testDate": "2020-11-23T23:24"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668533A",
+                    "testDate": "2020-11-23T21:46"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668534A",
+                    "testDate": "2020-11-23T20:21"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668535A",
+                    "testDate": "2020-11-23T22:17"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668536A",
+                    "testDate": "2020-11-23T20:50"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,RAJAT SHARMA LINE 6 TEST 2",
+                    "jobNbr": "031833",
+                    "serialNbr": "409668502A",
+                    "testDate": "2020-11-25T14:41"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -10359,14 +11335,28 @@
             "ventilators": []
         },
         {
-            "testCount": 0,
+            "testCount": 1,
             "jobNbr": "031836",
-            "ventilators": []
+            "ventilators": [{
+                "sentForRework": false,
+                "empName": "LISHA THOMAS LINE 2",
+                "jobNbr": "031836",
+                "serialNbr": "409668681A",
+                "testDate": "2020-11-25T03:42"
+            }],
+            "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 0,
+            "testCount": 1,
             "jobNbr": "031836",
-            "ventilators": []
+            "ventilators": [{
+                "sentForRework": false,
+                "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                "jobNbr": "031836",
+                "serialNbr": "409668681A",
+                "testDate": "2020-11-25T04:15"
+            }],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -10389,14 +11379,200 @@
             "ventilators": []
         },
         {
-            "testCount": 0,
+            "testCount": 13,
             "jobNbr": "031837",
-            "ventilators": []
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668727A",
+                    "testDate": "2020-11-26T04:23"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668730A",
+                    "testDate": "2020-11-26T03:05"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668731A",
+                    "testDate": "2020-11-26T03:54"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668732A",
+                    "testDate": "2020-11-26T02:03"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668738A",
+                    "testDate": "2020-11-26T01:42"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668739A",
+                    "testDate": "2020-11-26T00:03"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668741A",
+                    "testDate": "2020-11-25T23:19"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668744A",
+                    "testDate": "2020-11-25T21:24"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668750A",
+                    "testDate": "2020-11-25T20:52"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668752A",
+                    "testDate": "2020-11-25T19:53"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668754A",
+                    "testDate": "2020-11-25T20:31"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668761A",
+                    "testDate": "2020-11-25T04:55"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668769A",
+                    "testDate": "2020-11-25T22:58"
+                }
+            ],
+            "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 0,
+            "testCount": 13,
             "jobNbr": "031837",
-            "ventilators": []
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QALID ALI LINE 3",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668727A",
+                    "testDate": "2020-11-26T10:49"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668730A",
+                    "testDate": "2020-11-26T04:25"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,UDITPAL SINGH Test 2 Line 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668731A",
+                    "testDate": "2020-11-26T10:01"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668732A",
+                    "testDate": "2020-11-26T03:02"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668738A",
+                    "testDate": "2020-11-26T02:13"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668739A",
+                    "testDate": "2020-11-26T01:06"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668741A",
+                    "testDate": "2020-11-26T00:52"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668744A",
+                    "testDate": "2020-11-25T23:03"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668750A",
+                    "testDate": "2020-11-25T21:48"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668752A",
+                    "testDate": "2020-11-25T20:30"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,SHAWN NASSIR LINE 3",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668754A",
+                    "testDate": "2020-11-25T20:59"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668761A",
+                    "testDate": "2020-11-25T04:57"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "031837",
+                    "serialNbr": "409668769A",
+                    "testDate": "2020-11-25T23:34"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -10689,22 +11865,292 @@
             "ventilators": []
         },
         {
+            "testCount": 19,
+            "jobNbr": "031847",
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669287A",
+                    "testDate": "2020-11-29T19:52"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669289A",
+                    "testDate": "2020-11-29T20:53"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669290A",
+                    "testDate": "2020-11-29T20:11"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669291A",
+                    "testDate": "2020-11-29T22:39"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669292A",
+                    "testDate": "2020-11-29T21:19"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669298A",
+                    "testDate": "2020-12-01T04:17"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669299A",
+                    "testDate": "2020-12-01T03:17"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669300A",
+                    "testDate": "2020-12-01T03:36"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669301A",
+                    "testDate": "2020-11-30T22:58"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669302A",
+                    "testDate": "2020-12-01T02:25"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669304A",
+                    "testDate": "2020-11-30T22:40"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669305A",
+                    "testDate": "2020-11-30T22:08"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669306A",
+                    "testDate": "2020-11-30T19:30"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669307A",
+                    "testDate": "2020-11-30T23:30"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669308A",
+                    "testDate": "2020-11-30T20:09"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669309A",
+                    "testDate": "2020-11-30T20:25"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669310A",
+                    "testDate": "2020-11-30T19:45"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669312A",
+                    "testDate": "2020-11-30T21:15"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669276A",
+                    "testDate": "2020-11-30T01:42"
+                }
+            ],
+            "testName": "Electrical Safety Check"
+        },
+        {
+            "testCount": 19,
+            "jobNbr": "031847",
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,NAVEEN KRISHNA LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669287A",
+                    "testDate": "2020-11-29T23:04"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,NAVEEN KRISHNA LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669289A",
+                    "testDate": "2020-11-29T22:37"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,NAVEEN KRISHNA LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669290A",
+                    "testDate": "2020-11-30T00:02"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,NAVEEN KRISHNA LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669291A",
+                    "testDate": "2020-11-30T00:48"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,NAVEEN KRISHNA LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669292A",
+                    "testDate": "2020-11-29T23:30"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR ALI LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669298A",
+                    "testDate": "2020-12-01T07:26"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669299A",
+                    "testDate": "2020-12-01T03:46"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669300A",
+                    "testDate": "2020-12-01T04:24"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669301A",
+                    "testDate": "2020-11-30T23:43"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669302A",
+                    "testDate": "2020-12-01T03:17"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669304A",
+                    "testDate": "2020-11-30T23:12"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669305A",
+                    "testDate": "2020-11-30T22:46"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669306A",
+                    "testDate": "2020-11-30T20:03"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669307A",
+                    "testDate": "2020-12-01T01:00"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669308A",
+                    "testDate": "2020-11-30T21:03"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669309A",
+                    "testDate": "2020-11-30T21:44"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669310A",
+                    "testDate": "2020-11-30T20:31"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669312A",
+                    "testDate": "2020-11-30T21:59"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 3",
+                    "jobNbr": "031847",
+                    "serialNbr": "409669276A",
+                    "testDate": "2020-11-30T02:27"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
+        },
+        {
             "testCount": 0,
             "jobNbr": "031847",
             "ventilators": []
         },
         {
             "testCount": 0,
-            "jobNbr": "031847",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
-            "jobNbr": "031847",
-            "ventilators": []
-        },
-        {
-            "testCount": 0,
             "jobNbr": "031848",
             "ventilators": []
         },
@@ -10719,14 +12165,28 @@
             "ventilators": []
         },
         {
-            "testCount": 0,
+            "testCount": 1,
             "jobNbr": "031848",
-            "ventilators": []
+            "ventilators": [{
+                "sentForRework": false,
+                "empName": "LISHA THOMAS LINE 2",
+                "jobNbr": "031848",
+                "serialNbr": "409669358A",
+                "testDate": "2020-12-01T00:01"
+            }],
+            "testName": "Electrical Safety Check"
         },
         {
-            "testCount": 0,
+            "testCount": 1,
             "jobNbr": "031848",
-            "ventilators": []
+            "ventilators": [{
+                "sentForRework": false,
+                "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                "jobNbr": "031848",
+                "serialNbr": "409669358A",
+                "testDate": "2020-12-01T01:42"
+            }],
+            "testName": "Sys Calibration Test Procedure"
         },
         {
             "testCount": 0,
@@ -10761,6 +12221,814 @@
         {
             "testCount": 0,
             "jobNbr": "031849",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032258",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032258",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032258",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032258",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032258",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032258",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032259",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032259",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032259",
+            "ventilators": []
+        },
+        {
+            "testCount": 22,
+            "jobNbr": "032259",
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669488A",
+                    "testDate": "2020-12-03T03:07"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669492A",
+                    "testDate": "2020-12-02T19:31"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669494A",
+                    "testDate": "2020-12-02T22:11"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669496A",
+                    "testDate": "2020-12-02T23:07"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669498A",
+                    "testDate": "2020-12-02T19:48"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669506A",
+                    "testDate": "2020-12-02T20:18"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669508A",
+                    "testDate": "2020-12-02T20:39"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669510A",
+                    "testDate": "2020-12-02T20:05"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669512A",
+                    "testDate": "2020-12-02T22:35"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669516A",
+                    "testDate": "2020-12-01T19:40"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669518A",
+                    "testDate": "2020-12-01T20:41"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669519A",
+                    "testDate": "2020-12-01T21:58"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669520A",
+                    "testDate": "2020-12-01T20:18"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669522A",
+                    "testDate": "2020-12-01T23:01"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669524A",
+                    "testDate": "2020-12-02T02:42"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669525A",
+                    "testDate": "2020-12-02T02:01"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669526A",
+                    "testDate": "2020-12-02T00:00"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669527A",
+                    "testDate": "2020-12-02T01:39"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669528A",
+                    "testDate": "2020-12-02T03:11"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669529A",
+                    "testDate": "2020-12-02T02:20"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669532A",
+                    "testDate": "2020-12-01T21:07"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669535A",
+                    "testDate": "2020-12-01T19:57"
+                }
+            ],
+            "testName": "Electrical Safety Check"
+        },
+        {
+            "testCount": 22,
+            "jobNbr": "032259",
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669488A",
+                    "testDate": "2020-12-03T03:33"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669492A",
+                    "testDate": "2020-12-02T20:15"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669494A",
+                    "testDate": "2020-12-02T23:01"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Bohan Gai Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669496A",
+                    "testDate": "2020-12-03T01:19"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669498A",
+                    "testDate": "2020-12-02T20:40"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669506A",
+                    "testDate": "2020-12-02T21:39"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669508A",
+                    "testDate": "2020-12-02T22:02"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669510A",
+                    "testDate": "2020-12-02T20:07"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669512A",
+                    "testDate": "2020-12-02T23:25"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669516A",
+                    "testDate": "2020-12-01T20:09"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Shawn Nassir Line 3",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669518A",
+                    "testDate": "2020-12-01T22:25"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669519A",
+                    "testDate": "2020-12-01T22:55"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669520A",
+                    "testDate": "2020-12-01T21:59"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Shawn Nassir Line 3",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669522A",
+                    "testDate": "2020-12-02T01:01"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,QAMBAR ALI LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669524A",
+                    "testDate": "2020-12-02T08:35"
+                },
+                {
+                    "sentForRework": true,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669525A",
+                    "testDate": "2020-12-08T12:33"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669526A",
+                    "testDate": "2020-12-02T00:59"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669527A",
+                    "testDate": "2020-12-02T03:04"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669528A",
+                    "testDate": "2020-12-02T04:27"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669529A",
+                    "testDate": "2020-12-02T03:32"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669532A",
+                    "testDate": "2020-12-01T22:25"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032259",
+                    "serialNbr": "409669535A",
+                    "testDate": "2020-12-01T20:40"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032259",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032260",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032260",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032260",
+            "ventilators": []
+        },
+        {
+            "testCount": 3,
+            "jobNbr": "032260",
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032260",
+                    "serialNbr": "409669567A",
+                    "testDate": "2020-12-02T21:05"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032260",
+                    "serialNbr": "409669577A",
+                    "testDate": "2020-12-02T23:55"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2",
+                    "jobNbr": "032260",
+                    "serialNbr": "409669578A",
+                    "testDate": "2020-12-03T01:09"
+                }
+            ],
+            "testName": "Electrical Safety Check"
+        },
+        {
+            "testCount": 3,
+            "jobNbr": "032260",
+            "ventilators": [
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2,Jawad Haider Syed Line 2",
+                    "jobNbr": "032260",
+                    "serialNbr": "409669567A",
+                    "testDate": "2020-12-02T22:26"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "032260",
+                    "serialNbr": "409669577A",
+                    "testDate": "2020-12-03T01:10"
+                },
+                {
+                    "sentForRework": false,
+                    "empName": "LISHA THOMAS LINE 2, Bohan Gai Line 2",
+                    "jobNbr": "032260",
+                    "serialNbr": "409669578A",
+                    "testDate": "2020-12-03T01:56"
+                }
+            ],
+            "testName": "Sys Calibration Test Procedure"
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032260",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032261",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032261",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032261",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032261",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032261",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032261",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032262",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032262",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032262",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032262",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032262",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032262",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032263",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032263",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032263",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032263",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032263",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032263",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032264",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032264",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032264",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032264",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032264",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032264",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032265",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032266",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032266",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032266",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032266",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032266",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032266",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032267",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032267",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032267",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032267",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032267",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032267",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032268",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032268",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032268",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032268",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032268",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032268",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032271",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032271",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032271",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032271",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032271",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032271",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032614",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032614",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032614",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032614",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032614",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032614",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032615",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032615",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032615",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032615",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032615",
+            "ventilators": []
+        },
+        {
+            "testCount": 0,
+            "jobNbr": "032615",
             "ventilators": []
         },
         {
