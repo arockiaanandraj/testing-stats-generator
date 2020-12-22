@@ -13975,7 +13975,7 @@
             "testDate": "2020-12-01T20:22"
         },
         {
-            "sentForRework": false,
+            "sentForRework": true,
             "empName": "HARSIMRAN SINGH LINE 5",
             "serialNbr": "409669393A",
             "jobNbr": "031849",
@@ -14069,7 +14069,7 @@
     "testName": "Electrical Safety Check"
 },
 {
-    "testCount": 18,
+    "testCount": 17,
     "jobNbr": "031849",
     "ventilators": [
         {
@@ -14113,13 +14113,6 @@
             "serialNbr": "409669392A",
             "jobNbr": "031849",
             "testDate": "2020-12-01T21:05"
-        },
-        {
-            "sentForRework": true,
-            "empName": "HARSIMRAN SINGH LINE 5",
-            "serialNbr": "409669393A",
-            "jobNbr": "031849",
-            "testDate": "2020-12-01T19:58"
         },
         {
             "sentForRework": false,
@@ -14494,36 +14487,6 @@
 },
 {
     "testCount": 0,
-    "jobNbr": "032265",
-    "ventilators": []
-},
-{
-    "testCount": 0,
-    "jobNbr": "032265",
-    "ventilators": []
-},
-{
-    "testCount": 0,
-    "jobNbr": "032265",
-    "ventilators": []
-},
-{
-    "testCount": 0,
-    "jobNbr": "032265",
-    "ventilators": []
-},
-{
-    "testCount": 0,
-    "jobNbr": "032265",
-    "ventilators": []
-},
-{
-    "testCount": 0,
-    "jobNbr": "032265",
-    "ventilators": []
-},
-{
-    "testCount": 0,
     "jobNbr": "032266",
     "ventilators": []
 },
@@ -14598,14 +14561,60 @@
     "ventilators": []
 },
 {
-    "testCount": 0,
+    "testCount": 3,
     "jobNbr": "032268",
-    "ventilators": []
+    "ventilators": [
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4",
+            "serialNbr": "409660002B",
+            "jobNbr": "032268",
+            "testDate": "2020-12-16T20:41"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4",
+            "serialNbr": "409660005B",
+            "jobNbr": "032268",
+            "testDate": "2020-12-16T20:03"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4",
+            "serialNbr": "409660006B",
+            "jobNbr": "032268",
+            "testDate": "2020-12-16T21:05"
+        }
+    ],
+    "testName": "Electrical Safety Check"
 },
 {
-    "testCount": 0,
+    "testCount": 3,
     "jobNbr": "032268",
-    "ventilators": []
+    "ventilators": [
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4,DEEPIKA POONIA LINE 6",
+            "serialNbr": "409660002B",
+            "jobNbr": "032268",
+            "testDate": "2020-12-16T22:47"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4,DEEPIKA POONIA LINE 6",
+            "serialNbr": "409660005B",
+            "jobNbr": "032268",
+            "testDate": "2020-12-16T21:25"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4,NAVEEN KRISHNA LINE 3",
+            "serialNbr": "409660006B",
+            "jobNbr": "032268",
+            "testDate": "2020-12-16T21:30"
+        }
+    ],
+    "testName": "Sys Calibration Test Procedure"
 },
 {
     "testCount": 0,
@@ -14628,14 +14637,45 @@
     "ventilators": []
 },
 {
-    "testCount": 0,
+    "testCount": 2,
     "jobNbr": "032271",
-    "ventilators": []
+    "ventilators": [
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4",
+            "serialNbr": "409660103B",
+            "jobNbr": "032271",
+            "testDate": "2020-12-16T21:54"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4",
+            "serialNbr": "409660108B",
+            "jobNbr": "032271",
+            "testDate": "2020-12-16T22:23"
+        }
+    ],
+    "testName": "Electrical Safety Check"
 },
 {
-    "testCount": 0,
+    "testCount": 2,
     "jobNbr": "032271",
-    "ventilators": []
+    "ventilators": [
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4,DEEPIKA POONIA LINE 6",
+            "serialNbr": "409660103B",
+            "jobNbr": "032271",
+            "testDate": "2020-12-16T23:44"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4",
+            "serialNbr": "409660108B",
+            "jobNbr": "032271"
+        }
+    ],
+    "testName": "Sys Calibration Test Procedure"
 },
 {
     "testCount": 0,
@@ -14658,14 +14698,60 @@
     "ventilators": []
 },
 {
-    "testCount": 0,
+    "testCount": 3,
     "jobNbr": "032614",
-    "ventilators": []
+    "ventilators": [
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4",
+            "serialNbr": "409660155B",
+            "jobNbr": "032614",
+            "testDate": "2020-12-16T21:22"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4",
+            "serialNbr": "409660158B",
+            "jobNbr": "032614",
+            "testDate": "2020-12-16T21:40"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4",
+            "serialNbr": "409660161B",
+            "jobNbr": "032614",
+            "testDate": "2020-12-16T20:56"
+        }
+    ],
+    "testName": "Electrical Safety Check"
 },
 {
-    "testCount": 0,
+    "testCount": 3,
     "jobNbr": "032614",
-    "ventilators": []
+    "ventilators": [
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4,NAVEEN KRISHNA LINE 3",
+            "serialNbr": "409660155B",
+            "jobNbr": "032614",
+            "testDate": "2020-12-16T23:41"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4,NAVEEN KRISHNA LINE 3",
+            "serialNbr": "409660158B",
+            "jobNbr": "032614",
+            "testDate": "2020-12-17T01:52"
+        },
+        {
+            "sentForRework": false,
+            "empName": "HARSIMRAN SINGH LINE 4,NAVEEN KRISHNA LINE 3",
+            "serialNbr": "409660161B",
+            "jobNbr": "032614",
+            "testDate": "2020-12-17T00:43"
+        }
+    ],
+    "testName": "Sys Calibration Test Procedure"
 },
 {
     "testCount": 0,

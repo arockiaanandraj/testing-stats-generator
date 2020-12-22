@@ -67,7 +67,7 @@
 409660924A=[Electrical Safety Check]
 409662907A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409660900A=[Electrical Safety Check, Sys Calibration Test Procedure]
-409669393A=[Electrical Safety Check, Sys Calibration Test Procedure]
+409669393A=[Electrical Safety Check]
 409667091A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409666229A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409666568A=[Electrical Safety Check, Sys Calibration Test Procedure]
@@ -107,6 +107,7 @@
 409665773A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409665652A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409663112A=[Electrical Safety Check, Sys Calibration Test Procedure]
+409660161B=[Electrical Safety Check, Sys Calibration Test Procedure]
 409660903A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409661002A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409663895A=[Electrical Safety Check, Sys Calibration Test Procedure]
@@ -133,6 +134,7 @@
 409660916A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409664646A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409660904A=[Sys Calibration Test Procedure]
+409660155B=[Electrical Safety Check, Sys Calibration Test Procedure]
 409664888A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662368A=[Sys Calibration Test Procedure]
 409664876A=[Electrical Safety Check, Sys Calibration Test Procedure]
@@ -185,6 +187,7 @@
 409662543A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662991A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409664895A=[Electrical Safety Check, Sys Calibration Test Procedure]
+409660158B=[Electrical Safety Check, Sys Calibration Test Procedure]
 409667282A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409665887A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409665427A=[Electrical Safety Check, Sys Calibration Test Procedure]
@@ -208,6 +211,7 @@
 409664654A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409664678A=[Sys Calibration Test Procedure]
 409662337A=[Electrical Safety Check, Sys Calibration Test Procedure]
+409660002B=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662542A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662336A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662990A=[Electrical Safety Check, Sys Calibration Test Procedure]
@@ -262,10 +266,12 @@
 409665816A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409661301A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409661761A=[Electrical Safety Check, Sys Calibration Test Procedure]
+409660006B=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662306A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409667016A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409665394A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662523A=[Electrical Safety Check, Sys Calibration Test Procedure]
+409660005B=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662983A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409669401A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409667331A=[Electrical Safety Check, Sys Calibration Test Procedure]
@@ -288,6 +294,7 @@
 409669402A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662897A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662522A=[Electrical Safety Check, Sys Calibration Test Procedure]
+409660103B=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662994A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662982A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409667330A=[Electrical Safety Check, Sys Calibration Test Procedure]
@@ -371,6 +378,7 @@
 409661752A=[Electrical Safety Check]
 409661764A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409661861A=[Electrical Safety Check, Sys Calibration Test Procedure]
+409660108B=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662999A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662987A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409662975A=[Electrical Safety Check, Sys Calibration Test Procedure]
@@ -560,11 +568,12 @@
 409661868A=[Electrical Safety Check, Sys Calibration Test Procedure]
 409661759A=[Electrical Safety Check, Sys Calibration Test Procedure]
 
+
 HARSIMRAN SINGH
 Assembly 1 = 0
 Assembly 2 = 0
 Assembly 3 = 0
-Test 1 = 561
+Test 1 = 569
 Test 2 = 0
 Test 3 = 0
 Sent for Rework = 96
